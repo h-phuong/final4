@@ -1,0 +1,75 @@
+@charset "utf-8";
+/* CSS Document */
+.search-box {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  border: 2px solid #28a745;
+  border-radius: 10px;
+  background: #f0fff0;
+  box-shadow: 0 0 15px rgba(40, 167, 69, 0.3);
+}
+
+.search-box h3 {
+  text-align: center;
+  color: #28a745;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.search-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.search-box label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.search-box select,
+.search-box input[type="number"],
+.search-box input[type="date"] {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 16px;
+  transition: border-color 0.3s ease;
+}
+
+.search-box select:focus,
+.search-box input[type="number"]:focus,
+.search-box input[type="date"]:focus {
+  border-color: #28a745;
+  outline: none;
+}
+
+.price-date-group {
+  display: flex;
+  gap: 10px;
+}
+
+.price-date-group > div {
+  flex: 1;
+}
+
+.search-box button {
+  background-color: #28a745;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.search-box button:hover {
+  background-color: #218838;
+}
